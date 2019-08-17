@@ -1,0 +1,28 @@
+{
+    "name": "foobar",
+    "version": "1.0.0",
+    "description": "TODO: describe foobar",
+    "author": "Trent Mick (http://trentm.com)",
+    "main": "./lib/foobar.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/trentm/node-foobar.git"
+    },
+    "engines": [
+        "node >=8"
+    ],
+    "keywords": [],
+    "license": "MIT",
+    "files": [
+        "lib"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-joyent": "~2.0.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "prettier": "^1.18.2",
+        "tap": "^14.6.1"
+    }
+}
