@@ -1,22 +1,29 @@
-TODO: short (one or a few paragraphs) description of this package including:
-- why
-- what is does, and perhaps what it doesn't do
-- current status, if relevant
+TODO:
+- Find and replace all "foobar" boilerplate in this repo:
+        rg -i foobar
+        find . -name "*foobar*"
+- update copyright year in LICENSE
 
 
-XXX
+TODO: Add a short (one or a few paragraphs) description of this package here
+including: why, what it does, perhaps what it doesn't do, and current status if
+relevant.
+
 
 # Install
 
     npm install foobar
 
+
 # Usage
 
 TODO: some usage examples
 
+
 # ...
 
 TODO: other user-guide-ish top-level sections as you see fit
+
 
 # Reference
 
@@ -59,7 +66,7 @@ Usage:
 Test output is node-tap's default "classic" output. Full TAP output is written
 to "test.tap". You can use `TAP=1` to have TAP output emited to stdout.
 
-## Test vars
+### Test vars
 
 The following `TEST_...` envvars can tweak how the tests are run. As well, a
 number of node-tap `TAP_...` envvars are available -- run
