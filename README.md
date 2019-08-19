@@ -1,4 +1,8 @@
 TODO:
+- proj setup steps in "https://github.com/.../settings":
+    - disable merge commits
+    - remove wikis if not using
+    - remove projects if not using
 - Find and replace all "foobar" boilerplate in this repo:
         rg -i foobar
         find . -name "*foobar*"
