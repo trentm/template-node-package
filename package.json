@@ -8,9 +8,9 @@
         "type": "git",
         "url": "git://github.com/trentm/node-foobar.git"
     },
-    "engines": [
-        "node >=8"
-    ],
+    "engines": {
+        "node": ">=8"
+    },
     "keywords": [],
     "license": "MIT",
     "files": [
