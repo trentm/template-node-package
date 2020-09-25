@@ -5,7 +5,7 @@ all:
 
 .PHONY: clean
 clean:
-	rm -rf test.tap foobar-*.tgz
+	rm -rf foobar-*.tgz
 
 .PHONY: distclean
 distclean: clean
