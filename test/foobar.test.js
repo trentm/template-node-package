@@ -5,7 +5,6 @@
 var test = require('tap').test;
 var foobar = require('../');
 
-
 // ---- tests
 
 test('foobar', function _(t) {

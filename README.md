@@ -59,31 +59,12 @@ Before commiting or proposing PRs, please ensure the following pass:
 ## Testing
 
 Usage:
-    make test [TEST-VARS]           # run all tests
+    npm test                        # run all tests
+    make test                       # run all tests (same)
     node test/foobar.test.js        # run a specific test file
-    make test [TEST_FILTER=foo]     # run just the test files matching 'foo'
 
-    # Run all tests against all supported node versions. This assumes
-    # node binaries in "$HOME/opt/node-$majorVer".
-    make testall
-
-Test output is node-tap's default "classic" output. Full TAP output is written
-to "test.tap". You can use `TAP=1` to have TAP output emited to stdout.
-
-### Test vars
-
-The following `TEST_...` envvars can tweak how the tests are run. As well, a
-number of node-tap `TAP_...` envvars are available -- run
-`./node_modules/.bin/tap` for docs on those.
-
-- `TEST_JOBS=<number of test files to run concurrently>` - By default this is
-  10. Set to 1 to run tests serially.
-
-- `TEST_TIMEOUT_S=<number of seconds timeout for each test file>` - By default
-  this is 1200 (10 minutes). Ideally tests are written to take much less than
-  10 minutes.
-
-- `TAP=1` to have the test suite emit TAP output. This is a node-tap envvar.
+Test output is node-tap's default "classic" output. You can use `TAP=1` to
+have TAP output emited to stdout.
 
 
 ## Release process
