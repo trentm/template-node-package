@@ -1,5 +1,4 @@
 /tmp
 /node_modules
-/test.tap
 /foobar-*.tgz
 /.nyc_output
