@@ -9,7 +9,7 @@ clean:
 
 .PHONY: distclean
 distclean: clean
-	rm -rf node_modules
+	rm -rf node_modules .nyc_output/
 
 .PHONY: test
 test:

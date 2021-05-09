@@ -9,7 +9,7 @@
         "url": "git://github.com/trentm/node-foobar.git"
     },
     "engines": {
-        "node": ">=10.x"
+        "node": ">=12.x"
     },
     "keywords": [],
     "license": "MIT",
@@ -25,9 +25,9 @@
     "dependencies": {},
     "devDependencies": {
         "eslint": "^7.3.0",
-        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^3.1.4",
         "prettier": "^2.0.5",
-        "tap": "^14.x"
+        "tap": "^15.0.9"
     }
 }
